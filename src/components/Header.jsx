@@ -1,9 +1,11 @@
 import styles from './Header.module.css'
 
+import rocketLogo from '../assets/rocket-logo.svg'
+
 export function Header() {
     return (
         <header className={styles.header}>
-            <strong>Ignite Feed</strong>
+            <img src={rocketLogo} alt="Logo do ignite" />
         </header>
     )
 }
